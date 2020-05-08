@@ -1,24 +1,24 @@
-"""
-Python tuples are sort of like lists, except they're immutable and
-are usually used to hold heterogenous data, as opposed to lists
-which are typically used to hold homogenous data. Tuples use
-parens instead of square brackets.
+# """
+# Python tuples are sort of like lists, except they're immutable and
+# are usually used to hold heterogenous data, as opposed to lists
+# which are typically used to hold homogenous data. Tuples use
+# parens instead of square brackets.
 
-More specifically, tuples are faster than lists. If you're looking
-to just define a constant set of values and that set of values
-never needs to be mutated, use a tuple instead of a list.
+# More specifically, tuples are faster than lists. If you're looking
+# to just define a constant set of values and that set of values
+# never needs to be mutated, use a tuple instead of a list.
 
-Additionally, your code will be safer if you opt to "write-protect"
-data that does not need to be changed. Tuples enforce immutability
-automatically.
-"""
+# Additionally, your code will be safer if you opt to "write-protect"
+# data that does not need to be changed. Tuples enforce immutability
+# automatically.
+# """
 
 # Example:
 
 import math
 
 def dist(a, b):
-    """Compute the distance between two x,y points."""
+    # """Compute the distance between two x,y points."""
     x0, y0 = a  # Destructuring assignment
     x1, y1 = b
 
@@ -28,15 +28,22 @@ a = (2, 7)   # <-- x,y coordinates stored in tuples
 b = (-14, 72)
 
 # Prints "Distance is 66.94"
-print("Distance is: {:.2f}".format(dist(a, b)))
+# print("Distance is: {:.2f}".format(dist(a, b)))
 
 
 
 # Write a function `print_tuple` that prints all the values in a tuple
 
 # YOUR CODE HERE
+def print_tuple(x):
+    if type(x) is tuple:
+        for banana in x:
+            print(banana)
+    elif type(x) is int:
+        print(x)
 
 t = (1, 2, 5, 7, 99)
+print(type(t))
 print_tuple(t)  # Prints 1 2 5 7 99, one per line
 
 # Declare a tuple of 1 element then print it
