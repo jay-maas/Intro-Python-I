@@ -1,19 +1,19 @@
-"""
-Dictionaries are Python's implementation of associative arrays.
-There's not much different with Python's version compared to what
-you'll find in other languages (though you can also initialize and
-populate dictionaries using comprehensions just like you can with
-lists!).
+# """
+# Dictionaries are Python's implementation of associative arrays.
+# There's not much different with Python's version compared to what
+# you'll find in other languages (though you can also initialize and
+# populate dictionaries using comprehensions just like you can with
+# lists!).
 
-The docs can be found here:
-https://docs.python.org/3/tutorial/datastructures.html#dictionaries
+# The docs can be found here:
+# https://docs.python.org/3/tutorial/datastructures.html#dictionaries
 
-For this exercise, you have a list of dictionaries. Each dictionary
-has the following keys:
- - lat: a signed integer representing a latitude value
- - lon: a signed integer representing a longitude value
- - name: a name string for this location
-"""
+# For this exercise, you have a list of dictionaries. Each dictionary
+# has the following keys:
+#  - lat: a signed integer representing a latitude value
+#  - lon: a signed integer representing a longitude value
+#  - name: a name string for this location
+# """
 
 waypoints = [
     {

@@ -10,34 +10,34 @@
 
 # Write a list comprehension to produce the array [1, 2, 3, 4, 5]
 
-# y = [i for i in range(1,6)]
+y = [i for i in range(1,6)]
 # for number in range(6):
 #     if number != 0:
 #         y.append(number)
 
-# print (y)
+print (y)
 
 # Write a list comprehension to produce the cubes of the numbers 0-9:
 # [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
 
-# y = [i**3 for i in range(10)]
+y = [i**3 for i in range(10)]
 # for number in range(10):
 #     y.append(number**3)
 
 
-# print(y)
+print(y)
 
 # Write a list comprehension to produce the uppercase version of all the
 # elements in array a. Hint: "foo".upper() is "FOO".
 
-# a = ["foo", "bar", "baz"]
+a = ["foo", "bar", "baz"]
 
-# y = [i.upper() for i in a]
+y = [i.upper() for i in a]
 
 # for string in a:
 #     y.append(string.upper())
 
-# print(y)
+print(y)
 
 # Use a list comprehension to create a list containing only the _even_ elements
 # the user entered into list x.
